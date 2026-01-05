@@ -12,4 +12,4 @@ npm run dev
 turbo run dev
 ```
 
-Open [http://localhost:3001](http://localhost:3001) with your browser to see the result.
+Open [http://localhost:3004](http://localhost:3004) with your browser to see the result.
