@@ -8,9 +8,22 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types"
   },
+  "dependencies": {
+    "next": "16.1.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
   "devDependencies": {
+    "@tailwindcss/postcss": "4.1.18",
+    "@types/node": "20.19.27",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "9.39.2",
+    "eslint-config-next": "16.1.1",
     "prettier": "^3.7.4",
     "prettier-plugin-tailwindcss": "^0.7.2",
+    "tailwindcss": "4.1.18",
     "turbo": "^2.7.2",
     "typescript": "5.9.2"
   },
