@@ -4,6 +4,7 @@
   "private": true,
   "exports": {
     "./layout": "./src/layout.tsx",
+    "./page": "./src/page.tsx",
     "./globals.css": "./src/globals.css",
     "./*": "./src/*.tsx"
   },
@@ -13,13 +14,6 @@
     "check-types": "tsc --noEmit"
   },
   "devDependencies": {
-    "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
-    "@types/node": "^22.15.3",
-    "@types/react": "19.2.3",
-    "@types/react-dom": "19.2.3",
-    "eslint": "^9.39.1",
-    "typescript": "5.9.2"
   },
   "dependencies": {
     "next": "16.1.1",
