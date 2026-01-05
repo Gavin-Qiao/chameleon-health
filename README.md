@@ -1,67 +1,35 @@
 # Chameleon Health
 
 ![CI Status](https://github.com/Gavin-Qiao/chameleon-health/actions/workflows/ci.yml/badge.svg)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Turborepo](https://img.shields.io/badge/built%20with-Turborepo-ef4444)
-![Next.js](https://img.shields.io/badge/framework-Next.js-black)
 
-**MVP: Medical-UI** — A multilingual symptom translator for doctor visits.
+> **"Healthcare access shouldn't be a lottery, and language shouldn't be a barrier to care."**
 
-## 🚀 Mission
+## 🌟 The Mission
 
-Breaking down barriers to healthcare access through technology. Built for families who face language barriers and the frustration of endless appointment hunting.
+Chameleon Health exists to break down the invisible walls that separate patients from the care they need. We are building for the families who face the frustration of endless appointment hunting and the anxiety of walking into a doctor's office unable to describe their pain in the local language.
 
-## ✨ Features
+Our goal is simple: **Empower patients with dignity and access.**
 
-- **Interactive Body Map**: Select body parts to localize symptoms.
-- **Multilingual Support**: Describe symptoms in your native language; get medical-grade translations.
-- **Privacy First**: No data storage requirements for the MVP.
-- **Fast & Accessible**: Built on modern web standards for performance on any device.
+## 💡 Our Philosophy
 
-## 🛠️ Tech Stack
+### 1. Human-Centric Technology
+We believe technology should work for people, not the other way around. Our tools are designed to be invisible helpers—removing friction without adding complexity. When a parent is worried about a sick child, they shouldn't have to fight a user interface.
 
-- **Monorepo**: [Turborepo](https://turbo.build/repo)
-- **Framework**: [Next.js 14+](https://nextjs.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Tooling**: TypeScript, ESLint, Prettier
+### 2. Privacy as a Right
+In an era of data harvesting, we stand apart. **Medical-UI** is designed to be ephemeral. We don't store your symptoms, your history, or your location. You own your data; we just help you translate it.
 
-## 🏗️ Project Structure
+### 3. Universal Accessibility
+Health is a universal human need. Our platform is built from day one to bridge the gap between languages (initially French/English) and to be accessible on any device, anywhere, regardless of connection speed.
 
-```bash
-chameleon-health/
-├── apps/
-│   ├── web/        # Main Medical-UI Application
-│   └── docs/       # Documentation Site
-└── packages/
-    ├── ui/         # Shared Design System
-    ├── eslint/     # Shared Lint Config
-    └── typescript/ # Shared TS Config
-```
+## 🚀 The Vision
 
-## ⚡ Getting Started
+We are starting with **MVP: Medical-UI**, a tool to give a voice to patients who struggle with the local medical language. But this is just the beginning.
 
-### Prerequisites
+We envision a platform where:
+*   Appointments are found automatically, not hunted.
+*   Medical history travels safely with the patient.
+*   "Lost in translation" never leads to a misdiagnosis.
 
-- Node.js 18+
-- npm (or pnpm/yarn)
+---
 
-### Installation
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/Gavin-Qiao/chameleon-health.git
-
-# 2. Install dependencies
-npm install
-
-# 3. Start the development server
-npm run dev
-```
-
-## 🤝 Contributing
-
-This is a single-developer project, but contributions are welcome! Please open an issue or submit a PR on GitHub.
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
+*Technical details and documentation for specific applications can be found in their respective branches and directories.*
