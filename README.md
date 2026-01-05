@@ -1,6 +1,6 @@
 # Chameleon Health
 
-![CI Status](https://github.com/chameleon-health/mvp/actions/workflows/ci.yml/badge.svg)
+![CI Status](https://github.com/Gavin-Qiao/chameleon-health/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Turborepo](https://img.shields.io/badge/built%20with-Turborepo-ef4444)
 ![Next.js](https://img.shields.io/badge/framework-Next.js-black)
@@ -49,7 +49,7 @@ chameleon-health/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/chameleon-health/mvp.git
+git clone https://github.com/Gavin-Qiao/chameleon-health.git
 
 # 2. Install dependencies
 npm install
