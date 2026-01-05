@@ -10,6 +10,8 @@ Run the development server:
 npm run dev
 # or
 turbo run dev
+# or
+turbo run dev --filter=medical-ui
 ```
 
 Open [http://localhost:3002](http://localhost:3002) with your browser to see the result.

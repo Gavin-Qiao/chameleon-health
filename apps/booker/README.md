@@ -10,6 +10,8 @@ Run the development server:
 npm run dev
 # or
 turbo run dev
+# or
+turbo run dev --filter=booker
 ```
 
 Open [http://localhost:3004](http://localhost:3004) with your browser to see the result.

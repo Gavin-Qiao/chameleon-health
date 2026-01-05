@@ -10,6 +10,8 @@ Run the development server:
 npm run dev
 # or
 turbo run dev
+# or
+turbo run dev --filter=watcher
 ```
 
 Open [http://localhost:3003](http://localhost:3003) with your browser to see the result.
