@@ -9,7 +9,8 @@
     "./globals.css": "./src/globals.css",
     "./icons": "./src/icons.tsx",
     "./layout": "./src/layout.tsx",
-    "./page": "./src/page.tsx"
+    "./page": "./src/page.tsx",
+    "./package.json": "./package.json"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
@@ -17,9 +18,13 @@
     "check-types": "tsc --noEmit"
   },
   "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*"
   },
   "dependencies": {
-    "next": "16.1.1",
+    "next": "16.1.1"
+  },
+  "peerDependencies": {
     "react": "19.2.3",
     "react-dom": "19.2.3"
   }
