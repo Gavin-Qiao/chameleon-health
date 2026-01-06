@@ -21,10 +21,9 @@
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*"
   },
-  "dependencies": {
-    "next": "16.1.1"
-  },
+  "dependencies": {},
   "peerDependencies": {
+    "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   }
