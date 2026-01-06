@@ -16,6 +16,8 @@
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*"
+    "@repo/typescript-config": "*",
+    "@repo/next-config": "*",
+    "@repo/postcss-config": "*"
   }
 }

@@ -1,8 +1,3 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
-  reactCompiler: true,
-};
+import { nextConfig } from "@repo/next-config";
 
 export default nextConfig;
