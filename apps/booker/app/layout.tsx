@@ -6,10 +6,4 @@ export const metadata: Metadata = {
   description: "The Booker application",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return <SharedLayout>{children}</SharedLayout>;
-}
+export default SharedLayout;
