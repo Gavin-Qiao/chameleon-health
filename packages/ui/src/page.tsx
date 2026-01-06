@@ -1,4 +1,8 @@
-export function Page({ appName }: { readonly appName: string }) {
+type PageProps = {
+  readonly appName: string;
+};
+
+export function Page({ appName }: PageProps) {
   return (
     <div className="flex min-h-screen items-center justify-center bg-white dark:bg-black">
       <main className="flex flex-col items-center gap-6 text-center">

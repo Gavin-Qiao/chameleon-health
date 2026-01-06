@@ -11,7 +11,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export function SharedLayout({ children }: { readonly children: React.ReactNode }) {
+type SharedLayoutProps = {
+  readonly children: React.ReactNode;
+};
+
+export function SharedLayout({ children }: SharedLayoutProps) {
   return (
     <html
       lang="en"

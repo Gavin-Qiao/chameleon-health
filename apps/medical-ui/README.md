@@ -9,7 +9,7 @@ Run the development server:
 ```bash
 npm run dev
 # or
-turbo run dev
+turbo run dev # runs all apps
 # or
 turbo run dev --filter=medical-ui
 ```

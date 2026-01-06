@@ -3,13 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./layout": "./src/layout.tsx",
-    "./page": "./src/page.tsx",
-    "./globals.css": "./src/globals.css",
-    "./icons": "./src/icons.tsx",
     "./button": "./src/button.tsx",
     "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx"
+    "./code": "./src/code.tsx",
+    "./globals.css": "./src/globals.css",
+    "./icons": "./src/icons.tsx",
+    "./layout": "./src/layout.tsx",
+    "./page": "./src/page.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
